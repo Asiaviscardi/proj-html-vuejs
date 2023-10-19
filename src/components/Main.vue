@@ -59,6 +59,12 @@ export default {
 
         </div>
 
+        <div class="sixth-section">
+
+            <div class="news">news</div>
+
+        </div>
+
     </div>
   
 </template>
@@ -140,6 +146,19 @@ export default {
     .events{
         width: 80%;
         background-color: pink;
+    }
+
+}
+
+.sixth-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: azure;
+
+    .news{
+        width: 80%;
+        background-color: cornflowerblue;
     }
 
 }
