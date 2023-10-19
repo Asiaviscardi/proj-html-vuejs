@@ -47,6 +47,12 @@ export default {
 
         </div>
 
+        <div class="fourth-section">
+
+            <div class="step">step</div>
+
+        </div>
+
     </div>
   
 </template>
@@ -106,4 +112,16 @@ export default {
     }
 }
 
+.fourth-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: azure;
+
+    .step{
+        width: 80%;
+        background-color: cornflowerblue;
+    }
+
+}
 </style>
