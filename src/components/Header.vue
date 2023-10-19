@@ -1,6 +1,12 @@
 <script>
 export default {
-    name:'Header'
+    name:'Header',
+    data(){
+    return{
+      indirizzo: '6767 Santa Monica Blvd, Los Angeles, CA 90038',
+      numero: 'Call Now 123-456-7890'
+    }
+  }
 
 }
 </script>
@@ -13,7 +19,7 @@ export default {
 
             <div class="left">
 
-                <p>indirizzo</p>
+                <p>{{indirizzo}}</p>
 
                 <div>immagine</div>
 
@@ -21,7 +27,7 @@ export default {
 
             <div class="right">
 
-                <p>numero</p>
+                <p>{{numero}}</p>
 
                 <button>click</button>
 
@@ -62,7 +68,10 @@ export default {
     width: 100%;
     display: flex;
     justify-content: center;
-    background-color: azure;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    background-color: rgba($color: #404040, $alpha: 0.5);
 
     .components-container{
         width: 80%;
