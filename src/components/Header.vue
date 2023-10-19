@@ -21,7 +21,11 @@ export default {
 
                 <p>{{indirizzo}}</p>
 
-                <div>immagine</div>
+                <div class="img-container">
+
+                    <img src="../assets/images/mt-2236-home-logo.png" alt="">
+
+                </div>
 
             </div>
 
@@ -77,13 +81,29 @@ export default {
         width: 80%;
         display: flex;
 
-        .left, .right{
+        .left{
             width: 50%;
-            background-color: beige;
-            border: 1px solid black;
+
+            p{
+                color: white;
+                font-size: 12px;
+                padding: 5px 0px;
+            }
+
+            .img-container{
+                width: 100%;
+
+                img{
+                    width: 15%;
+                    padding: 15px 0px 5px;
+                }
+            }
         }
 
         .right{
+            width: 50%;
+            background-color: beige;
+            border: 1px solid black;
             display: flex;
             flex-wrap: wrap;
             justify-content: space-between;
