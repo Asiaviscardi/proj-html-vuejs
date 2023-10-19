@@ -7,10 +7,26 @@ export default {
 
 <template>
 
-    <h1>Footer</h1>
+    <div class="footer-container">
+
+        <div class="footer-components">footer</div>
+
+    </div>
   
 </template>
 
-<style>
+<style scoped lang="scss">
+
+.footer-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: azure;
+
+    .footer-components{
+        width: 80%;
+        background-color: pink;
+    }
+}
 
 </style>
