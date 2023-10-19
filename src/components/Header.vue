@@ -7,10 +7,78 @@ export default {
 
 <template>
 
-    <h1>Header</h1>
+    <div class="header-container">
+
+        <div class="components-container">
+
+            <div class="left">
+
+                <p>indirizzo</p>
+
+                <div>immagine</div>
+
+            </div>
+
+            <div class="right">
+
+                <p>numero</p>
+
+                <button>click</button>
+
+                <div class="list-container">
+
+                    <ul>
+    
+                        <li>menu</li>
+    
+                    </ul>
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </div>
   
 </template>
 
-<style>
+<style scoped lang="scss">
+
+.header-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: azure;
+
+    .components-container{
+        width: 80%;
+        display: flex;
+
+        .left, .right{
+            width: 50%;
+            background-color: beige;
+            border: 1px solid black;
+        }
+
+        .right{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+
+            .list-container{
+                width: 100%;
+                display: flex;
+                align-items: end;
+
+                ul{
+
+                    list-style-type: none;
+                }
+            }
+        }
+
+    }
+}
 
 </style>
