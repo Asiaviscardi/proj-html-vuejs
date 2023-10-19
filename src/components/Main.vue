@@ -53,6 +53,12 @@ export default {
 
         </div>
 
+        <div class="fifth-section">
+
+            <div class="events">events</div>
+
+        </div>
+
     </div>
   
 </template>
@@ -121,6 +127,19 @@ export default {
     .step{
         width: 80%;
         background-color: cornflowerblue;
+    }
+
+}
+
+.fifth-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: azure;
+
+    .events{
+        width: 80%;
+        background-color: pink;
     }
 
 }
