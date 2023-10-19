@@ -35,9 +35,15 @@ export default {
 
             <div class="learn">
 
-                <div class="learn-components">sdf</div>
+                <div class="learn-components">learn</div>
 
             </div>
+
+        </div>
+
+        <div class="third-section">
+
+            <div class="courses">courses</div>
 
         </div>
 
@@ -86,6 +92,18 @@ export default {
         }
     }
 
+}
+
+.third-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: azure;
+
+    .courses{
+        width: 80%;
+        background-color: pink;
+    }
 }
 
 </style>
