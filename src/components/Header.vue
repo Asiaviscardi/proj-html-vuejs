@@ -4,7 +4,9 @@ export default {
     data(){
     return{
       indirizzo: '6767 Santa Monica Blvd, Los Angeles, CA 90038',
-      numero: 'Call Now 123-456-7890'
+      numero: 'Call Now 123-456-7890',
+      nome:'ACADEMIC CHESS FOR',
+      descrizione:'We are dedicated to broadening and developing chess as art, recreation, and as a significant element of culture in Northern California.'
     }
   }
 
@@ -50,7 +52,7 @@ export default {
                         <li>FAQ</li>
 
                         <li>Blog</li>
-                        
+
                         <li>Contact Us</li>
     
                     </ul>
@@ -70,7 +72,15 @@ export default {
 
             <div class="jumbo-components">
 
-                jumbo
+                <div class="welcome">Welcome</div>
+
+                <h1>{{ nome }} <em>EVERYONE</em></h1>
+
+                <p>{{ descrizione }}</p>
+
+                <button class="en-now">Enroll Now</button>
+
+                <button class="lea-more">Learn More</button>
 
             </div>
 
@@ -88,7 +98,7 @@ export default {
     position: fixed;
     top: 0;
     z-index: 1000;
-    background-color: rgba($color: #404040, $alpha: 0.2);
+    background-color: rgba($color: #000000, $alpha: 0.2);
 
     .components-container{
         width: 80%;
@@ -122,7 +132,7 @@ export default {
             p{
                 color: white;
                 font-size: 12px;
-                padding: 5px 0px;
+                padding: 5px 160px;
             }
 
             button{
@@ -166,16 +176,60 @@ export default {
     width: 100%;
     display: flex;
     justify-content: center;
-    background-color: azure;
+    background-image: url(../assets/images/mt-2236-home-bg1.jpg);
 
     .jumbo{
         width: 80%;
         display: flex;
-        background-color: cornflowerblue;
 
         .jumbo-components{
-            width: 50%;
-            background-color: pink;
+            width: 30%;
+            padding: 100px 0px;
+
+            .welcome{
+                width: 100px;
+                text-align: center;
+                border-radius: 7px;
+                background-color: #ffcd18;
+            }
+
+            h1{
+                color: white;
+                font-size: 49px;
+                padding-top: 20px;
+
+                em{
+                    color: #ffcd18;
+                }
+            }
+
+            p{
+                color: white;
+                padding: 20px 0px;
+            }
+
+            .en-now{
+                width: 120px;
+                text-align: center;
+                background-color: #ffcd18;
+                padding: 10px;
+                margin-right: 5px;
+                border-radius: 6px;
+                cursor: pointer;
+
+            }
+
+            .lea-more{
+                width: 120px;
+                text-align: center;
+                background-color: rgba($color: #000000, $alpha: 0);
+                color: white;
+                border: 1px solid white;
+                padding: 10px;
+                border-radius: 6px;
+                cursor: pointer;
+
+            }
         }
     }
 }
