@@ -7,7 +7,7 @@ export default {
 
 <template>
 
-    <div class="header-container">
+    <div class="first-section">
 
         <div class="components-container">
 
@@ -40,12 +40,25 @@ export default {
         </div>
 
     </div>
+
+    <div class="second-section">
+
+        <div class="jumbo">
+
+            <div class="jumbo-components">
+
+                jumbo
+
+            </div>
+
+        </div>
+    </div>
   
 </template>
 
 <style scoped lang="scss">
 
-.header-container{
+.first-section{
     width: 100%;
     display: flex;
     justify-content: center;
@@ -72,12 +85,29 @@ export default {
                 align-items: end;
 
                 ul{
-
                     list-style-type: none;
                 }
             }
         }
 
+    }
+}
+
+.second-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: azure;
+
+    .jumbo{
+        width: 80%;
+        display: flex;
+        background-color: cornflowerblue;
+
+        .jumbo-components{
+            width: 50%;
+            background-color: pink;
+        }
     }
 }
 
