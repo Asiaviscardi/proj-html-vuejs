@@ -33,15 +33,28 @@ export default {
 
                 <p>{{numero}}</p>
 
-                <button>click</button>
+                <button>Donate</button>
 
                 <div class="list-container">
 
                     <ul>
     
-                        <li>menu</li>
+                        <li class="orange">Home</li>
+
+                        <li>Services</li>
+
+                        <li>Courses</li>
+
+                        <li>About</li>
+
+                        <li>FAQ</li>
+
+                        <li>Blog</li>
+                        
+                        <li>Contact Us</li>
     
                     </ul>
+
                 </div>
 
 
@@ -75,7 +88,7 @@ export default {
     position: fixed;
     top: 0;
     z-index: 1000;
-    background-color: rgba($color: #404040, $alpha: 0.5);
+    background-color: rgba($color: #404040, $alpha: 0.2);
 
     .components-container{
         width: 80%;
@@ -102,19 +115,46 @@ export default {
 
         .right{
             width: 50%;
-            background-color: beige;
-            border: 1px solid black;
             display: flex;
             flex-wrap: wrap;
             justify-content: space-between;
 
+            p{
+                color: white;
+                font-size: 12px;
+                padding: 5px 0px;
+            }
+
+            button{
+                color: black;
+                background: white;
+                width: 100px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                margin: 8px 0px;
+                padding: 6px;
+            }
+
             .list-container{
                 width: 100%;
-                display: flex;
-                align-items: end;
+                margin: 0% 25%;
 
                 ul{
                     list-style-type: none;
+                    display: flex;
+                    text-align: center;
+                    
+
+                    li{
+                        padding-right: 12px;
+                        cursor: pointer;
+                        color: white;
+                    }
+
+                    .orange{
+                        color: #ffcd18;
+                    }
                 }
             }
         }
