@@ -78,7 +78,7 @@ export default {
     background-color: azure;
 
     .services-container{
-        width: 80%;
+        width: 70%;
         background-color: aqua;
     }
 }
@@ -105,7 +105,7 @@ export default {
         background-color: bisque;
 
         .learn-components{
-            width: 80%;
+            width: 70%;
             background-color: cornflowerblue;
         }
     }
@@ -119,7 +119,7 @@ export default {
     background-color: azure;
 
     .courses{
-        width: 80%;
+        width: 70%;
         background-color: pink;
     }
 }
@@ -131,7 +131,7 @@ export default {
     background-color: azure;
 
     .step{
-        width: 80%;
+        width: 70%;
         background-color: cornflowerblue;
     }
 
@@ -144,7 +144,7 @@ export default {
     background-color: azure;
 
     .events{
-        width: 80%;
+        width: 70%;
         background-color: pink;
     }
 
@@ -157,7 +157,7 @@ export default {
     background-color: azure;
 
     .news{
-        width: 80%;
+        width: 70%;
         background-color: cornflowerblue;
     }
 

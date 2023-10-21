@@ -84,9 +84,14 @@ export default {
 
                 <p>{{ descrizione }}</p>
 
-                <button class="en-now">Enroll Now</button>
+                <div class="buttons-container">
 
-                <button class="lea-more">Learn More</button>
+                    <button class="en-now">Enroll Now</button>
+    
+                    <button class="lea-more">Learn More</button>
+
+                </div>
+
 
             </div>
 
@@ -107,7 +112,7 @@ export default {
     background-color: rgba($color: #000000, $alpha: 0.2);
 
     .components-container{
-        width: 80%;
+        width: 70%;
         display: flex;
 
         .left{
@@ -116,14 +121,15 @@ export default {
             p{
                 color: white;
                 font-size: 12px;
-                padding: 5px 0px;
+                padding: 20px 0px;
             }
 
             .img-container{
                 width: 100%;
+                margin-bottom: 10px;
 
                 img{
-                    width: 15%;
+                    width: 20%;
                     padding: 15px 0px 5px;
                 }
             }
@@ -180,10 +186,13 @@ export default {
 
 .second-section{
     width: 100%;
+    height: 793px;
     display: flex;
     justify-content: center;
     background-image: url(../assets/images/mt-2236-home-bg1.jpg);
+    background-size: contain;
     position: relative;
+    padding-top: 70px;
     
     .button-container{
         width: 55px;
@@ -205,12 +214,12 @@ export default {
     }
 
     .jumbo{
-        width: 80%;
+        width: 70%;
         display: flex;
 
         .jumbo-components{
-            width: 30%;
-            padding: 100px 0px;
+            width: 35%;
+            padding: 150px 0px;
 
             .welcome{
                 width: 100px;
@@ -232,30 +241,36 @@ export default {
             p{
                 color: white;
                 padding: 20px 0px;
+                line-height: 1.5;
             }
 
-            .en-now{
-                width: 120px;
-                text-align: center;
-                background-color: #ffcd18;
-                padding: 10px;
-                margin-right: 5px;
-                border-radius: 6px;
-                cursor: pointer;
+            .buttons-container{
+                margin-top: 30px;
 
+                .en-now{
+                    width: 120px;
+                    text-align: center;
+                    background-color: #ffcd18;
+                    padding: 10px;
+                    margin-right: 5px;
+                    border-radius: 6px;
+                    cursor: pointer;
+    
+                }
+    
+                .lea-more{
+                    width: 120px;
+                    text-align: center;
+                    background-color: rgba($color: #000000, $alpha: 0);
+                    color: white;
+                    border: 1px solid white;
+                    padding: 10px;
+                    border-radius: 6px;
+                    cursor: pointer;
+    
+                }
             }
 
-            .lea-more{
-                width: 120px;
-                text-align: center;
-                background-color: rgba($color: #000000, $alpha: 0);
-                color: white;
-                border: 1px solid white;
-                padding: 10px;
-                border-radius: 6px;
-                cursor: pointer;
-
-            }
         }
     }
 }

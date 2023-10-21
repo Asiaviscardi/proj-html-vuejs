@@ -24,7 +24,7 @@ export default {
     background-color: azure;
 
     .footer-components{
-        width: 80%;
+        width: 70%;
         background-color: pink;
     }
 }
