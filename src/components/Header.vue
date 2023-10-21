@@ -68,6 +68,12 @@ export default {
 
     <div class="second-section">
 
+        <div class="button-container">
+
+            <button>icon</button>
+
+        </div>
+
         <div class="jumbo">
 
             <div class="jumbo-components">
@@ -177,6 +183,26 @@ export default {
     display: flex;
     justify-content: center;
     background-image: url(../assets/images/mt-2236-home-bg1.jpg);
+    position: relative;
+    
+    .button-container{
+        width: 55px;
+        display: flex;
+        align-self: center;
+        position: absolute;
+        left: 0px;
+        margin: 10px;
+
+        button{
+            width: 100%;
+            height: 55px;
+            border-radius: 50%;
+            background-color: white;
+            border: none;
+            cursor: pointer;
+
+        }
+    }
 
     .jumbo{
         width: 80%;
