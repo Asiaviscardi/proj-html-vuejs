@@ -26,7 +26,7 @@ export default {
                 
                 <h2>OUR SERVICES</h2>
 
-                <P>{{ frase }}</P>
+                <P class="sottotitolo">{{ frase }}</P>
 
                 <div class="card-container">
 
@@ -155,36 +155,40 @@ export default {
     .services-container{
         width: 70%;
         margin-top: 50px;
-        background-color: aqua;
 
         h2{
             text-align: center;
+            font-size: xx-large;
+        }
+
+        .sottotitolo{
+            font-size: 21px;
         }
 
         p{
-            color: lightgrey;
             text-align: center;
             padding: 10px 0px;
         }
 
         .card-container{
             width: 100%;
-            background-color: coral;
             display: flex;
             flex-wrap: wrap;
             justify-content: end;
+            padding: 10px;
 
             .card-aside{
-                width: 30%;
+                width: 25%;
+                padding: 20px 0px;
 
-                .sottotitolo{
-                    font-size: 18px;
+                h3{
+                    font-size: x-large;
                 }
 
                 p{
-                    color: black;
                     text-align: left;
                     line-height: 1.5;
+                    padding-bottom: 20px;
                 }
 
                 li{
@@ -200,16 +204,22 @@ export default {
                     border-radius: 6px;
                     cursor: pointer;
                     border: none;
+                    margin-top: 20px;
                 }
             }
 
             .card{
-                width: 35%;
-                background-color: darkkhaki;
-                border: 1px solid black;
+                width: 30%;
+                padding: 55px;
+                line-height: 1.5;
+
+                p{
+                    text-align: left;
+                }
 
                 .card-down{
                     width: 100%;
+                    padding-top: 90px;
                 }
             }
         }
