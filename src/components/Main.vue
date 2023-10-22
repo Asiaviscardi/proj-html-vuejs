@@ -40,15 +40,65 @@ export default {
 
                         <ul>
 
-                            <li>Build self-regulation and motivation</li>
+                            <li>
 
-                            <li>Help with concentration issues</li>
+                                <svg xmlns="http://www.w3.org/2000/svg" height="15px" viewBox="0 0 320 512">
+                                    
+                                    <path d="M215.5 224c29.2-18.4 48.5-50.9 48.5-88c0-57.4-46.6-104-104-104S56 78.6 56 136c0 37.1 19.4 69.6 48.5 88H96c-17.7 0-32 14.3-32 32c0 16.5 12.5 30 28.5 31.8L80 400H240L227.5 287.8c16-1.8 28.5-15.3 28.5-31.8c0-17.7-14.3-32-32-32h-8.5zM22.6 473.4c-4.2 4.2-6.6 10-6.6 16C16 501.9 26.1 512 38.6 512H281.4c12.5 0 22.6-10.1 22.6-22.6c0-6-2.4-11.8-6.6-16L256 432H64L22.6 473.4z" style="fill: #ffcd18;"/>
+                                
+                                </svg>
+                                
+                                Build self-regulation and motivation
+                            
+                            </li>
 
-                            <li>Learn to plan, organize, and prioritize</li>
+                            <li>
 
-                            <li>Regulate emotions</li>
+                                <svg xmlns="http://www.w3.org/2000/svg" height="15px" viewBox="0 0 320 512">
+                                
+                                    <path d="M215.5 224c29.2-18.4 48.5-50.9 48.5-88c0-57.4-46.6-104-104-104S56 78.6 56 136c0 37.1 19.4 69.6 48.5 88H96c-17.7 0-32 14.3-32 32c0 16.5 12.5 30 28.5 31.8L80 400H240L227.5 287.8c16-1.8 28.5-15.3 28.5-31.8c0-17.7-14.3-32-32-32h-8.5zM22.6 473.4c-4.2 4.2-6.6 10-6.6 16C16 501.9 26.1 512 38.6 512H281.4c12.5 0 22.6-10.1 22.6-22.6c0-6-2.4-11.8-6.6-16L256 432H64L22.6 473.4z" style="fill: #ffcd18;"/>
+                                
+                                </svg>
+                                
+                                Help with concentration issues
+                            
+                            </li>
 
-                            <li>Learn to play attention detail</li>
+                            <li>
+
+                                <svg xmlns="http://www.w3.org/2000/svg" height="15px" viewBox="0 0 320 512">
+                                    
+                                    <path d="M215.5 224c29.2-18.4 48.5-50.9 48.5-88c0-57.4-46.6-104-104-104S56 78.6 56 136c0 37.1 19.4 69.6 48.5 88H96c-17.7 0-32 14.3-32 32c0 16.5 12.5 30 28.5 31.8L80 400H240L227.5 287.8c16-1.8 28.5-15.3 28.5-31.8c0-17.7-14.3-32-32-32h-8.5zM22.6 473.4c-4.2 4.2-6.6 10-6.6 16C16 501.9 26.1 512 38.6 512H281.4c12.5 0 22.6-10.1 22.6-22.6c0-6-2.4-11.8-6.6-16L256 432H64L22.6 473.4z" style="fill: #ffcd18;"/>
+                                
+                                </svg>
+                                
+                                Learn to plan, organize, and prioritize
+                            
+                            </li>
+
+                            <li>
+
+                                <svg xmlns="http://www.w3.org/2000/svg" height="15px" viewBox="0 0 320 512">
+                                    
+                                    <path d="M215.5 224c29.2-18.4 48.5-50.9 48.5-88c0-57.4-46.6-104-104-104S56 78.6 56 136c0 37.1 19.4 69.6 48.5 88H96c-17.7 0-32 14.3-32 32c0 16.5 12.5 30 28.5 31.8L80 400H240L227.5 287.8c16-1.8 28.5-15.3 28.5-31.8c0-17.7-14.3-32-32-32h-8.5zM22.6 473.4c-4.2 4.2-6.6 10-6.6 16C16 501.9 26.1 512 38.6 512H281.4c12.5 0 22.6-10.1 22.6-22.6c0-6-2.4-11.8-6.6-16L256 432H64L22.6 473.4z" style="fill: #ffcd18;"/>
+                                
+                                </svg>
+                                
+                                Regulate emotions
+                            
+                            </li>
+
+                            <li>
+
+                                <svg xmlns="http://www.w3.org/2000/svg" height="15px" viewBox="0 0 320 512">
+                                    
+                                    <path d="M215.5 224c29.2-18.4 48.5-50.9 48.5-88c0-57.4-46.6-104-104-104S56 78.6 56 136c0 37.1 19.4 69.6 48.5 88H96c-17.7 0-32 14.3-32 32c0 16.5 12.5 30 28.5 31.8L80 400H240L227.5 287.8c16-1.8 28.5-15.3 28.5-31.8c0-17.7-14.3-32-32-32h-8.5zM22.6 473.4c-4.2 4.2-6.6 10-6.6 16C16 501.9 26.1 512 38.6 512H281.4c12.5 0 22.6-10.1 22.6-22.6c0-6-2.4-11.8-6.6-16L256 432H64L22.6 473.4z" style="fill: #ffcd18;"/>
+                                
+                                </svg>
+                                
+                                Learn to play attention detail
+                            
+                            </li>
 
                         </ul>
 
@@ -58,11 +108,15 @@ export default {
     
                     <div class="card">
 
+                        <img src="../assets/images/mt-2236-home-icon1.png" alt="">
+
                         <h4>Various Age groups</h4>
 
                         <p>{{ ageGroup }}</p>
 
                         <div class="card-down">
+
+                            <img src="../assets/images/mt-2236-home-icon3.png" alt="">
 
                            <h4>Best Chess Players</h4>
 
@@ -74,11 +128,15 @@ export default {
 
                     <div class="card">
 
+                        <img src="../assets/images/mt-2236-home-icon2.png" alt="">
+
                         <h4>Top Chess Variants</h4>
 
                         <p>{{ chessVariants }}</p>
 
                         <div class="card-down">
+
+                            <img src="../assets/images/mt-2236-home-icon4.png" alt="">
     
                             <h4>Best Chess Openings</h4>
     
@@ -151,6 +209,7 @@ export default {
     width: 100%;
     display: flex;
     justify-content: center;
+    margin-bottom: 50px;
 
     .services-container{
         width: 70%;
@@ -219,7 +278,7 @@ export default {
 
                 .card-down{
                     width: 100%;
-                    padding-top: 90px;
+                    padding-top: 55px;
                 }
             }
         }
