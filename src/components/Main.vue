@@ -157,13 +157,29 @@ export default {
 
             <div class="img-container">
 
-                <div class="immagine">img</div>
+                <div class="immagine">
 
-                <div class="immagine">img</div>
+                    <img src="../assets/images/mt-2236-home-gallery1.jpg" alt="">
 
-                <div class="immagine">img</div>
+                </div>
 
-                <div class="immagine">img</div>
+                <div class="immagine">
+
+                    <img src="../assets/images/mt-2236-home-gallery2.jpg" alt="">
+
+                </div>
+
+                <div class="immagine">
+
+                    <img src="../assets/images/mt-2236-home-gallery3.jpg" alt="">
+
+                </div>
+
+                <div class="immagine">
+
+                    <img src="../assets/images/mt-2236-home-gallery4.jpg" alt="">
+
+                </div>
 
             </div>
 
@@ -288,7 +304,6 @@ export default {
 
 .second-section{
     width: 100%;
-    background-color: azure;
 
     .img-container{
         width: 100%;
@@ -296,7 +311,11 @@ export default {
 
         .immagine{
             width: 25%;
-            border: 1px solid black;
+
+            img{
+                width: 100%;
+                height: 100%;
+            }
 
         }
     }
