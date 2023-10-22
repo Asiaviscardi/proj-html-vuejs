@@ -3,7 +3,13 @@ export default {
     name:'Main',
     data(){
         return{
-            frase: 'We make your child happy day after day'
+            frase: 'We make your child happy day after day',
+            frase2: 'Popular education for your child and you',
+            descrizione: 'Teachers and parents around the world know that chess is not a simple game. It is a great learning tool that will help build your childs executive function skills.',
+            ageGroup:'We provide chess classes to both children from 5 years old and adults.',
+            chessVariants:'We dont only teach classical chess but also other top variants of this game.',
+            chessPlayers:'Our alumni have won many prestigious chess tournaments in the country.',
+            chessOpenings:'Our students know all the best chess openings and how to use them.'
         }
     }
 
@@ -24,12 +30,64 @@ export default {
 
                 <div class="card-container">
 
-                    <div class="card-aside">card aside</div>
+                    <div class="card-aside">
+
+                        <h3>Chess Education</h3>
+
+                        <p class="sottotitolo">{{ frase2 }}</p>
+
+                        <p>{{ descrizione }}</p>
+
+                        <ul>
+
+                            <li>Build self-regulation and motivation</li>
+
+                            <li>Help with concentration issues</li>
+
+                            <li>Learn to plan, organize, and prioritize</li>
+
+                            <li>Regulate emotions</li>
+
+                            <li>Learn to play attention detail</li>
+
+                        </ul>
+
+                        <button>Learn More</button>
+
+                    </div>
     
-                    <div class="card">r</div>
-                    <div class="card">t</div>
-                    <div class="card">r</div>
-                    <div class="card">rt</div>
+                    <div class="card">
+
+                        <h4>Various Age groups</h4>
+
+                        <p>{{ ageGroup }}</p>
+
+                        <div class="card-down">
+
+                           <h4>Best Chess Players</h4>
+
+                           <p>{{ chessPlayers }}</p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="card">
+
+                        <h4>Top Chess Variants</h4>
+
+                        <p>{{ chessVariants }}</p>
+
+                        <div class="card-down">
+    
+                            <h4>Best Chess Openings</h4>
+    
+                            <p>{{ chessOpenings }}</p>
+    
+                        </div>
+
+                    </div>
+
                 </div>
 
 
@@ -118,14 +176,41 @@ export default {
 
             .card-aside{
                 width: 30%;
-                background-color: cadetblue;
+
+                .sottotitolo{
+                    font-size: 18px;
+                }
+
+                p{
+                    color: black;
+                    text-align: left;
+                    line-height: 1.5;
+                }
+
+                li{
+                    list-style: none;
+                    line-height: 2;
+                }
+
+                button{
+                    width: 120px;
+                    background-color: #ffcd18;
+                    text-align: center;
+                    padding: 10px;
+                    border-radius: 6px;
+                    cursor: pointer;
+                    border: none;
+                }
             }
 
             .card{
                 width: 35%;
                 background-color: darkkhaki;
                 border: 1px solid black;
-                justify-self: end;
+
+                .card-down{
+                    width: 100%;
+                }
             }
         }
 

@@ -255,6 +255,7 @@ export default {
                     margin-right: 5px;
                     border-radius: 6px;
                     cursor: pointer;
+                    border: none;
     
                 }
     
