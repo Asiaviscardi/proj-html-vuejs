@@ -185,7 +185,21 @@ export default {
 
             <div class="learn">
 
-                <div class="learn-components">learn</div>
+                <div class="learn-components">
+
+                    <img src="../assets/images/mt-2236-home-icon5.png" alt="">
+
+                    <div>
+
+                        <h2>PLAY & LEARN</h2>
+    
+                        <p>Take a look into our day to day life here at Chees School</p>
+
+                    </div>
+
+                    <button>Learn More</button>
+
+                </div>
 
             </div>
 
@@ -249,15 +263,14 @@ export default {
             width: 100%;
             display: flex;
             flex-wrap: wrap;
-            justify-content: end;
-            padding: 10px;
 
             .card-aside{
-                width: 25%;
+                width: 35%;
                 padding: 20px 0px;
 
                 h3{
                     font-size: x-large;
+                    padding-top: 60px;
                 }
 
                 p{
@@ -272,7 +285,7 @@ export default {
                 }
 
                 button{
-                    width: 120px;
+                    width: 150px;
                     background-color: #ffcd18;
                     text-align: center;
                     padding: 10px;
@@ -324,11 +337,31 @@ export default {
         width: 100%;
         display: flex;
         justify-content: center;
-        background-color: bisque;
+        background-color: #ffcd18;
 
         .learn-components{
             width: 70%;
-            background-color: cornflowerblue;
+            padding: 20px 100px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            img{
+                width: 70px;
+            }
+
+            h2{
+                padding-bottom: 15px;
+            }
+
+            button{
+                width: 150px;
+                background-color: #ffcd18;
+                text-align: center;
+                padding: 10px;
+                border-radius: 6px;
+                cursor: pointer;
+            }
         }
     }
 

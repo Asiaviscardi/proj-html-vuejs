@@ -177,12 +177,12 @@ export default {
             button{
                 color: black;
                 background: white;
-                width: 100px;
+                width: 150px;
                 border: none;
-                border-radius: 5px;
+                border-radius: 10px;
                 cursor: pointer;
                 margin: 8px 0px;
-                padding: 6px;
+                padding: 5px;
             }
 
             .list-container{
@@ -213,7 +213,7 @@ export default {
 
 .second-section{
     width: 100%;
-    height: 800px;
+    height: 793px;
     display: flex;
     justify-content: center;
     background-image: url(../assets/images/mt-2236-home-bg1.jpg);
@@ -275,7 +275,7 @@ export default {
                 margin-top: 30px;
 
                 .en-now{
-                    width: 120px;
+                    width: 150px;
                     text-align: center;
                     background-color: #ffcd18;
                     padding: 10px;
@@ -287,7 +287,7 @@ export default {
                 }
     
                 .lea-more{
-                    width: 120px;
+                    width: 150px;
                     text-align: center;
                     background-color: rgba($color: #000000, $alpha: 0);
                     color: white;
