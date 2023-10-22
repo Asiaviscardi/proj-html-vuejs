@@ -1,6 +1,11 @@
 <script>
 export default {
-    name:'Main'
+    name:'Main',
+    data(){
+        return{
+            frase: 'We make your child happy day after day'
+        }
+    }
 
 }
 </script>
@@ -13,7 +18,20 @@ export default {
 
             <div class="services-container">
                 
-                services
+                <h2>OUR SERVICES</h2>
+
+                <P>{{ frase }}</P>
+
+                <div class="card-container">
+
+                    <div class="card-aside">card aside</div>
+    
+                    <div class="card">r</div>
+                    <div class="card">t</div>
+                    <div class="card">r</div>
+                    <div class="card">rt</div>
+                </div>
+
 
             </div>
 
@@ -75,11 +93,42 @@ export default {
     width: 100%;
     display: flex;
     justify-content: center;
-    background-color: azure;
 
     .services-container{
         width: 70%;
+        margin-top: 50px;
         background-color: aqua;
+
+        h2{
+            text-align: center;
+        }
+
+        p{
+            color: lightgrey;
+            text-align: center;
+            padding: 10px 0px;
+        }
+
+        .card-container{
+            width: 100%;
+            background-color: coral;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: end;
+
+            .card-aside{
+                width: 30%;
+                background-color: cadetblue;
+            }
+
+            .card{
+                width: 35%;
+                background-color: darkkhaki;
+                border: 1px solid black;
+                justify-self: end;
+            }
+        }
+
     }
 }
 

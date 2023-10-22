@@ -186,7 +186,7 @@ export default {
 
 .second-section{
     width: 100%;
-    height: 793px;
+    height: 800px;
     display: flex;
     justify-content: center;
     background-image: url(../assets/images/mt-2236-home-bg1.jpg);
