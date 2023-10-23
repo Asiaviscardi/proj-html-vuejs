@@ -9,7 +9,10 @@ export default {
             ageGroup:'We provide chess classes to both children from 5 years old and adults.',
             chessVariants:'We dont only teach classical chess but also other top variants of this game.',
             chessPlayers:'Our alumni have won many prestigious chess tournaments in the country.',
-            chessOpenings:'Our students know all the best chess openings and how to use them.'
+            chessOpenings:'Our students know all the best chess openings and how to use them.',
+            cours1:'Learn the tips, tricks, and strategies from one of the best masters',
+            cours2:'Catered to adult beginners who have a few hours a week to pratice',
+            cours3:'Chess lessons for children and adults held completely online'
         }
     }
 
@@ -207,7 +210,80 @@ export default {
 
         <div class="third-section">
 
-            <div class="courses">courses</div>
+            <div class="courses">
+
+                <div>
+
+                    <h2>Courses</h2>
+    
+                    <p>To keep up with the constantly rising standards of play</p>
+
+                </div>
+
+                <div class="card-container">
+
+                    <div class="card">
+
+                        <div class="img-container">
+
+                            <img src="../assets/images/mt-2236-home-img1.jpg" alt="">
+
+                        </div>
+
+
+                        <h3>Garry Kasparov's Masterclass</h3>
+
+                        <p>{{ cours1 }}</p>
+
+                        <h3>$456</h3>
+
+                        <button>View More</button>
+
+                    </div>
+    
+                    <div class="card middle">
+
+                        <div class="img-container">
+
+                            <img src="../assets/images/mt-2236-home-img2.jpg" alt="">
+
+                        </div>
+
+                        <h3>ONline Chess Lessons for Beginners</h3>
+
+                        <p>{{ cours2 }}</p>
+
+                        <h3>$205</h3>
+
+                        <button>View More</button>
+
+
+                    </div>
+    
+                    <div class="card">
+
+                        <div class="img-container">
+
+                            <img src="../assets/images/mt-2236-home-img3.jpg" alt="">
+
+                        </div>
+
+                        <h3>International Chess School Online</h3>
+
+                        <p>{{ cours3 }}</p>
+
+                        <h3>$356</h3>
+
+                        <button>View More</button>
+
+
+                    </div>
+
+                </div>
+
+                <button>View Other Courses</button>
+
+            </div>
 
         </div>
 
@@ -371,11 +447,85 @@ export default {
     width: 100%;
     display: flex;
     justify-content: center;
-    background-color: azure;
 
     .courses{
         width: 70%;
-        background-color: pink;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding-top: 60px;
+
+        h2{
+            text-align: center;
+        }
+
+        p{
+            padding: 10px;
+        }
+
+        .card-container{
+            width: 100%;
+            display: flex;
+            margin: 20px 0px;
+            .card{
+                width: calc(100%/3);
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                box-shadow: 5px 10px 10px #e8e8e8;
+
+                .img-container{
+                    width: 100%;
+
+
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+
+                h3{
+                    text-align: center;
+                    padding: 25px 0px;
+                }
+
+                p{
+                    text-align: center;
+                    line-height: 1.5;
+                    padding: 0px 85px;
+                }
+
+                button{
+                    width: 150px;
+                    background-color: #ffcd18;
+                    text-align: center;
+                    padding: 10px;
+                    border-radius: 6px;
+                    cursor: pointer;
+                    border: none;
+                    margin-bottom: 20px;
+                }
+                
+
+            }
+
+            .middle{
+                    margin: 0px 30px;
+            }
+        }
+
+        button{
+                width: 190px;
+                text-align: center;
+                padding: 10px;
+                border-radius: 6px;
+                cursor: pointer;
+                background-color: white;
+                margin: 30px 0px;
+                font-weight: bold;
+            }
+
+
     }
 }
 
