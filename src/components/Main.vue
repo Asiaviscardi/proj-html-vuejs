@@ -249,7 +249,7 @@ export default {
 
                         </div>
 
-                        <h3>ONline Chess Lessons for Beginners</h3>
+                        <h3>Online Chess Lessons for Beginners</h3>
 
                         <p>{{ cours2 }}</p>
 
@@ -289,7 +289,19 @@ export default {
 
         <div class="fourth-section">
 
-            <div class="step">step</div>
+            <div class="step">
+
+                <div>
+
+                    <h2>TAKE THE<span class="orange">FIRST STEP</span></h2>
+    
+                    <p>The fascinating world of chess has its doors open for anyone</p>
+
+                </div>
+
+                <button>View More</button>
+
+            </div>
 
         </div>
 
@@ -515,15 +527,15 @@ export default {
         }
 
         button{
-                width: 190px;
-                text-align: center;
-                padding: 10px;
-                border-radius: 6px;
-                cursor: pointer;
-                background-color: white;
-                margin: 30px 0px;
-                font-weight: bold;
-            }
+            width: 190px;
+            text-align: center;
+            padding: 10px;
+            border-radius: 6px;
+            cursor: pointer;
+            background-color: white;
+            margin: 30px 0px;
+            font-weight: bold;
+        }
 
 
     }
@@ -533,11 +545,40 @@ export default {
     width: 100%;
     display: flex;
     justify-content: center;
-    background-color: azure;
+    background-image: url(../assets/images/mt-2236-home-bg2.jpg);
+    background-size: cover;
 
     .step{
         width: 70%;
-        background-color: cornflowerblue;
+        display: flex;
+        justify-content: space-between;
+        padding: 80px 0px;
+
+        h2{
+            color: white;
+            font-size: xx-large;
+            padding-bottom: 15px;
+        }
+
+        .orange{
+            color: #ffcd18;
+            padding-left: 10px;
+        }
+
+        p{
+            color: white;
+        }
+
+        button{
+            width: 150px;
+            height: 35px;
+            background-color: #ffcd18;
+            text-align: center;
+            border-radius: 6px;
+            cursor: pointer;
+            border: none;
+
+        }
     }
 
 }
