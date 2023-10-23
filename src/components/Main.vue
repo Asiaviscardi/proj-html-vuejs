@@ -368,7 +368,43 @@ export default {
 
         <div class="sixth-section">
 
-            <div class="news">news</div>
+            <div class="news">
+
+                <div class="card">
+
+                    <h2>Latest News</h2>
+
+                    <hr>
+
+                    <button>View Other Posts</button>
+
+                </div>
+
+                <div class="card middle">
+
+                    <div class="img-container">
+
+                        <img src="../assets/images/mt-2236-blog-img1.jpg" alt="">
+
+                    </div>
+
+                    <p>The most commmon mistakes when managing personal finances</p>
+
+                </div>
+
+                <div class="card">
+
+                    <div class="img-container">
+
+                        <img src="../assets/images/mt-2236-blog-img2.jpg" alt="">
+                        
+                    </div>
+
+                    <p>Methods of the recruitment</p>
+
+                </div>
+
+            </div>
 
         </div>
 
@@ -708,11 +744,49 @@ export default {
     width: 100%;
     display: flex;
     justify-content: center;
-    background-color: azure;
+    background-color: #fafafa;
 
     .news{
         width: 70%;
-        background-color: cornflowerblue;
+        display: flex;
+
+        .card{
+            width: calc(100%/3);
+            padding: 70px 0px;
+
+            h2{
+                font-size: xx-large;
+            }
+
+            hr{
+                width: 15%;
+                border: 2px solid #ffcd18;
+                margin: 20px 0px;
+            }
+
+            button{
+                width: 190px;
+                text-align: center;
+                padding: 10px;
+                border-radius: 6px;
+                cursor: pointer;
+                background-color: white;
+                font-weight: bold;
+            }
+            .img-container{
+                width: 100%;
+
+                img{
+                    width: 100%;
+                    padding-bottom: 10px;
+                }
+
+            }
+        }
+
+        .middle{
+            margin: 0px 30px;
+        }
     }
 
 }
