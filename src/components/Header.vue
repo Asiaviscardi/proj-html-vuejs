@@ -54,25 +54,57 @@ export default {
                 
                 </p>
 
-                <button>Donate</button>
+                <button>
+
+                    <a href="https://it.ulule.com/petits-champions-d-echecs/" target="blank">Donate</a>
+
+                </button>
 
                 <div class="list-container">
 
                     <ul>
     
-                        <li class="orange">Home</li>
+                        <li>
 
-                        <li>Services</li>
+                            <a class="orange" href="">Home</a>
 
-                        <li>Courses</li>
+                        </li>
 
-                        <li>About</li>
+                        <li>
+                            
+                            <a href="">Services</a>
 
-                        <li>FAQ</li>
+                        </li>
 
-                        <li>Blog</li>
+                        <li>
+                            
+                            <a href="Courses"></a>
+                        
+                        </li>
 
-                        <li>Contact Us</li>
+                        <li>
+                            
+                            <a href="">About</a>
+                        
+                        </li>
+
+                        <li>
+                            
+                            <a href="">FAQ</a>
+                        
+                        </li>
+
+                        <li>
+                            
+                            <a href="">Blog</a>
+                        
+                        </li>
+
+                        <li>
+                            
+                            <a href="">Contact Us</a>
+                        
+                        </li>
     
                     </ul>
 
@@ -113,7 +145,11 @@ export default {
 
                 <div class="buttons-container">
 
-                    <button class="en-now">Enroll Now</button>
+                    <button class="en-now">
+                        
+                        <a href="https://indianchessschool.com/enroll-now/" target="blank">Enroll Now</a>
+                    
+                    </button>
     
                     <button class="lea-more">Learn More</button>
 
@@ -175,7 +211,6 @@ export default {
             }
 
             button{
-                color: black;
                 background: white;
                 width: 150px;
                 border: none;
@@ -183,6 +218,11 @@ export default {
                 cursor: pointer;
                 margin: 8px 0px;
                 padding: 5px;
+
+                a{
+                    text-decoration:none;
+                    color: black;
+                }
             }
 
             .list-container{
@@ -198,12 +238,17 @@ export default {
                     li{
                         padding-right: 12px;
                         cursor: pointer;
-                        color: white;
+                        
+
+                        a{
+                            color: white;
+                            text-decoration: none;
+                        }
+                        .orange{
+                            color: #ffcd18;
+                        }
                     }
 
-                    .orange{
-                        color: #ffcd18;
-                    }
                 }
             }
         }
@@ -213,11 +258,11 @@ export default {
 
 .second-section{
     width: 100%;
-    height: 793px;
+    height: 800px;
     display: flex;
     justify-content: center;
     background-image: url(../assets/images/mt-2236-home-bg1.jpg);
-    background-size: contain;
+    background-size: cover;
     position: relative;
     padding-top: 70px;
     
@@ -283,6 +328,11 @@ export default {
                     border-radius: 6px;
                     cursor: pointer;
                     border: none;
+
+                    a{
+                        color: black;
+                        text-decoration: none;
+                    }
     
                 }
     

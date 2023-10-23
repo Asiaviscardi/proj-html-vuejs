@@ -63,7 +63,7 @@ export default {
 
                 <p class="subscribe">Subscribe to get the latest news, course updates, discounts, events</p>
 
-                <input type="email" placeholder="Enter your e-mail here *">
+                <input type="email" placeholder="Enter your e-mail here *" required>
 
                 <button>Subscribe</button>
 

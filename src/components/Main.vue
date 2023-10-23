@@ -334,7 +334,11 @@ export default {
 
                     <div class="button-container">
 
-                        <button>Register</button>
+                        <button>
+                            
+                            <a href="https://thechessacademy.org/registration/" target="blank">Register</a>
+                        
+                        </button>
 
                     </div>
 
@@ -355,7 +359,11 @@ export default {
 
                     <div class="button-container">
 
-                        <button>Register</button>
+                        <button>
+                            
+                            <a href="https://thechessacademy.org/registration/" target="blank">Register</a>
+                        
+                        </button>
 
                     </div>
                     
@@ -731,10 +739,15 @@ export default {
                     cursor: pointer;
                     border: none;
                     font-weight: bold;
+
+                    a{
+                        color: black;
+                        text-decoration: none;
+                    }
     
                 }
             }
-            }
+        }
 
     }
 
