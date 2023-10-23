@@ -12,7 +12,9 @@ export default {
             chessOpenings:'Our students know all the best chess openings and how to use them.',
             cours1:'Learn the tips, tricks, and strategies from one of the best masters',
             cours2:'Catered to adult beginners who have a few hours a week to pratice',
-            cours3:'Chess lessons for children and adults held completely online'
+            cours3:'Chess lessons for children and adults held completely online',
+            descrizioneGrandSummer:'Join us for the Grand Summer Tournament 2021. Held every year on the first Sunday of summer, our Grand Summer Tournament chess masters and beginners from North California. We have competitions for different levels of chess mastery with amazing prizes awarded at each level.',
+            descrizioneWorldChessDay:'Celebrated on July 20 every year, World Chess Day is one of the biggest events at our school. Be ready for fun tornaments and big prizes. Registration is obligatory!'
         }
     }
 
@@ -307,7 +309,60 @@ export default {
 
         <div class="fifth-section">
 
-            <div class="events">events</div>
+            <div class="events">
+
+                <div class="text-container">
+
+                    <h2>Our Events</h2>
+    
+                    <p>Chess is fun and we are happy to prove it at our events!</p>
+
+                </div>
+
+
+                <div class="card">
+
+                    <img src="../assets/images/mt-2236-home-img4.jpg" alt="">
+
+                    <div class="descrizioneEvento">
+
+                        <h3>Grand Summer Tournament of 2021</h3>
+    
+                        <p>{{ descrizioneGrandSummer }}</p>
+
+                    </div>
+
+                    <div class="button-container">
+
+                        <button>Register</button>
+
+                    </div>
+
+
+                </div>
+
+                <div class="card">
+                    
+                    <img src="../assets/images/mt-2236-home-img5.jpg" alt="">
+                    
+                    <div class="descrizioneEvento">
+                        
+                        <h3>World Chess Day</h3>
+                        
+                        <p>{{ descrizioneWorldChessDay }}</p>
+                    
+                    </div>
+
+                    <div class="button-container">
+
+                        <button>Register</button>
+
+                    </div>
+                    
+                
+                </div>
+
+            </div>
 
         </div>
 
@@ -586,12 +641,65 @@ export default {
 .fifth-section{
     width: 100%;
     display: flex;
+    padding-top: 70px;
     justify-content: center;
-    background-color: azure;
 
     .events{
         width: 70%;
-        background-color: pink;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+        .text-container{
+            width: 100%;
+            text-align: center;
+
+            h2{
+                font-size: xx-large;
+            }
+
+            p{
+                padding: 10px 0px;
+            }
+        }
+
+        .card{
+            width: 100%;
+            display: flex;
+            margin-bottom: 50px;
+
+            .descrizioneEvento{
+                width: 750px;
+                padding: 40px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+
+                p{
+                    padding: 20px 0px;
+                    line-height: 1.5;
+
+                }
+            }
+
+            .button-container{
+                display: flex;
+                align-items: center;
+
+                button{
+                    width: 150px;
+                    height: 35px;
+                    background-color: #ffcd18;
+                    text-align: center;
+                    border-radius: 6px;
+                    cursor: pointer;
+                    border: none;
+                    font-weight: bold;
+    
+                }
+            }
+            }
+
     }
 
 }
